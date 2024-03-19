@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border: 1px solid gray;
+}
+.rightPortion {
+  height: 200vh;
+  margin-left: 16.66%;
+}
+/* .mainPortion { */
+/* border: 1px solid gray; */
+/* margin-left: 16.66%; */
+/* } */
+/* .sidePortion {
+  overflow-y: scroll;
+  height: 200vh;
+} */
+
+.logo {
+  width: 70%;
+}
+.icon {
+  font-size: 1.5rem;
+}
+.roww {
+  padding: 0.8rem;
+}
+.roww-rightside {
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+}
+.dpdiv {
+  margin-right: 5px;
+}
+.dpHolder {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dp {
+  font-size: 0.8rem;
+}
+.userName {
+  font-weight: 600;
+}
+/* .name {
+  text-align: le
+} */
+.links {
+  font-size: 0.8rem;
+  color: blue;
+  font-weight: 600;
+}
+.suggested-text {
+  color: rgb(97, 97, 97);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.suggestionBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-left: 0.6rem;
+  padding: 0;
+}
+
+.see-all-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 0.4rem;
+}
+.suggest-text {
+  color: rgb(97, 97, 97);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.storyHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.storyHolder p {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+.story {
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.postHeadline {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.post-username {
+  font-weight: 500;
+}
+.post-username span {
+  color: rgb(78, 78, 78);
+}
+.post-audio {
+  font-size: 0.8rem;
+  color: rgb(78, 78, 78);
+}
+.postDp {
+  border: 2px solid red;
+}
+.vid {
+  object-fit: cover;
+  border-radius: 5px;
+}
+.vid::-webkit-media-controls {
+  display: none !important;
+}
+.vid::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+.vid::-webkit-media-controls-panel {
+  display: none !important;
+}
+.videoHolder {
+  height: 80vh;
+}
+.postReactiontools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastPostPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hashTags {
+  color: blue;
+}
