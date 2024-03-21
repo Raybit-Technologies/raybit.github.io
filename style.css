@@ -2,28 +2,19 @@
   margin: 0;
   padding: 0;
 }
+/* left side col */
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  border: 1px solid gray;
+  border-right: 1px solid gray;
 }
-.rightPortion {
-  height: 200vh;
-  margin-left: 16.66%;
-}
-/* .mainPortion { */
-/* border: 1px solid gray; */
-/* margin-left: 16.66%; */
-/* } */
-/* .sidePortion {
-  overflow-y: scroll;
-  height: 200vh;
-} */
-
 .logo {
   width: 70%;
+}
+.home {
+  font-weight: bold;
 }
 .icon {
   font-size: 1.5rem;
@@ -31,18 +22,16 @@
 .roww {
   padding: 0.8rem;
 }
+/* middle and right side col */
+.rightPortion {
+  margin-left: 16.66%;
+}
+/* right side col */
 .roww-rightside {
   padding: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.home {
-  font-weight: bold;
-}
-
-ul li {
-  list-style: none;
 }
 .dpdiv {
   margin-right: 5px;
@@ -62,17 +51,10 @@ ul li {
 .userName {
   font-weight: 600;
 }
-/* .name {
-  text-align: le
-} */
+
 .links {
   font-size: 0.8rem;
   color: blue;
-  font-weight: 600;
-}
-.suggested-text {
-  color: rgb(97, 97, 97);
-  font-size: 0.9rem;
   font-weight: 600;
 }
 .suggestionBar {
@@ -83,18 +65,25 @@ ul li {
   margin-left: 0.6rem;
   padding: 0;
 }
-
-.see-all-text {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-align: right;
-  padding-right: 0.4rem;
-}
 .suggest-text {
-  color: rgb(97, 97, 97);
+  color: rgb(134, 133, 133);
   font-size: 0.8rem;
   font-weight: 500;
 }
+ul li {
+  list-style: none;
+}
+.footer {
+  color: rgb(207, 202, 202);
+}
+.menu {
+  font-size: 0.8rem;
+}
+.copyright {
+  font-size: 0.8rem;
+}
+
+/* middle col */
 .storyHolder {
   display: flex;
   justify-content: center;
@@ -130,14 +119,17 @@ ul li {
   font-weight: 500;
 }
 .post-username span {
-  color: rgb(78, 78, 78);
+  color: rgb(134, 133, 133);
 }
 .post-audio {
   font-size: 0.8rem;
-  color: rgb(78, 78, 78);
+  color: rgb(134, 133, 133);
 }
 .postDp {
   border: 2px solid red;
+}
+.videoHolder {
+  height: 80vh;
 }
 .vid {
   object-fit: cover;
@@ -152,8 +144,56 @@ ul li {
 .vid::-webkit-media-controls-panel {
   display: none !important;
 }
-.videoHolder {
-  height: 80vh;
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardBody {
+  border-bottom: 1px solid gray;
+  padding: 0;
+  padding-bottom: 3rem;
+}
+.card-title {
+  margin-bottom: 2px;
+}
+.card-text {
+  font-size: 0.9rem;
+  color: rgb(134, 133, 133);
+  font-weight: 400;
+}
+.card-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.suggested-text {
+  color: rgb(134, 133, 133);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.see-all-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 0.4rem;
+}
+.suggestedPostDp {
+  height: 77px;
+  width: 77px;
+  border-radius: 50%;
+
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suggestedPostDp img {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .postReactiontools {
   display: flex;
@@ -167,4 +207,22 @@ ul li {
 }
 .hashTags {
   color: blue;
+}
+.sugg4u {
+  font-weight: 600;
+}
+.seeAll {
+  font-size: 0.8rem;
+  color: blue;
+}
+.commentText {
+  color: rgb(134, 133, 133);
+}
+
+.xHolder {
+  margin-right: 0.5rem;
+}
+.x {
+  color: rgb(134, 133, 133);
+  margin-right: 2px;
 }
