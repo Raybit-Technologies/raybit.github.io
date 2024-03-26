@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* left side col */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid gray;
+}
+.logo {
+  width: 70%;
+}
+.home {
+  font-weight: bold;
+}
+.icon {
+  font-size: 1.5rem;
+}
+.roww {
+  padding: 0.8rem;
+}
+/* ---------- */
+#main-portion {
+  margin-left: 16.66%;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profile-menu {
+  padding: 2rem;
+}
+#profilePhotoHolder {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#profilePhotoHolder img {
+  border-radius: 50%;
+}
+#profile-status {
+  gap: 40px;
+}
+#profile-userName {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.btn {
+  background-color: rgba(231, 223, 223, 0.47);
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#settings-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.status {
+  font-weight: 500;
+  padding: 3px;
+}
+/* ----------------- */
+#highlights-row {
+  padding: 2rem 5rem;
+}
+#highlights-container {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid rgb(164, 157, 157);
+
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#highlights-holder {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgba(218, 203, 203, 0.336);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-plus {
+  font-size: 3rem;
+  color: rgb(126 116 116 / 61%);
+}
+#highlight-name {
+  margin-left: 11px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+/* -------------------- */
+#feedheading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.feedheading {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 1rem 0;
+  display: inline;
+}
+.feedheading span {
+  margin-right: 0.5rem;
+}
+/* posts */
+#post-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+.post {
+  /* height: 100%; */
+  width: 33%;
+  object-fit: cover;
+}
+/* footer */
+#footer-container {
+  margin: 4rem 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+ul li {
+  list-style: none;
+}

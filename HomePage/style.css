@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* left side col */
 .sidebar {
   position: fixed;
@@ -25,6 +26,8 @@
 /* middle and right side col */
 .rightPortion {
   margin-left: 16.66%;
+  /* height: 100vh; */
+  /* overflow-y: auto; */
 }
 /* right side col */
 .roww-rightside {
@@ -225,4 +228,62 @@ ul li {
 .x {
   color: rgb(134, 133, 133);
   margin-right: 2px;
+}
+/* CREATE MODAL WINDOW */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* display: none; */
+  z-index: 1000;
+}
+
+.modal-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  /* padding: 20px; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1100;
+  /* display: none; */
+}
+.modal-head {
+  padding: 0.5rem 0;
+}
+.modal-head p {
+  font-weight: 500;
+  margin: 0;
+}
+.modal-body {
+  padding: 5rem 3rem;
+}
+.media-icon-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.media-icon {
+  font-size: 4rem;
+}
+.instruction-text {
+  font-size: 1.2rem;
+}
+.button-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-window button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.2em 1em;
+  background-color: rgb(42, 134, 227);
 }
